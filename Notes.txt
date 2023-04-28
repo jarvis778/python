@@ -1,0 +1,55 @@
+tuple : immutable , ordered
+string : immutable
+set : no duplicate , no order
+collections : sets lists tuples dictionary
+from itertools import permutations
+from itertools import combinations
+? = 0/1 , + = atleast one , * any thing
+preety printing import pprint , pprint.pprint(wife)
+s.upper()
+s.startswith()
+s.lower()
+s.islower()
+s.isupper()
+isalpha()	returns True if the string consists only of letters.
+isalnum()	returns True if the string consists only of letters and numbers.
+isdecimal()	returns True if the string consists only of numbers.
+isspace()	returns True if the string consists only of spaces, tabs, and new-lines.
+istitle()	returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase characters.
+
+Number formatting table
+Number	    Format	Output	    description
+3.1415926	{:.2f}	3.14	    Format float 2 decimal places
+3.1415926	{:+.2f}	+3.14	    Format float 2 decimal places with sign
+-1	        {:+.2f}	-1.00	    Format float 2 decimal places with sign
+2.71828 	{:.0f}	3	        Format float with no decimal places
+4	        {:0>2d}	04	        Pad number with zeros (left padding, width 2)
+4	        {:x<4d}	4xxx	    Pad number with x’s (right padding, width 4)
+10	        {:x<4d}	10xx	    Pad number with x’s (right padding, width 4)
+1000000	    {:,}	1,000,000	Number format with comma separator
+0.35	    {:.2%}	35.00%	    Format percentage
+1000000000	{:.2e}	1.00e+09	Exponent notation
+11	{:11d}	 11	   Right-aligned  (default, width 10)
+11	{:<11d}	 11	   Left-aligned   (width 10)
+11	{:^11d}	 11	   Center aligned (width 10)
+
+
+
+Regex symbols
+Symbol	Matches
+?	    zero or one of the preceding group.
+*	    zero or more of the preceding group.
++	    one or more of the preceding group.
+{n}	    exactly n of the preceding group.
+{n,}	n or more of the preceding group.
+{,m}	0 to m of the preceding group.
+{n,m}	at least n and at most m of the preceding p.
+{n,m}? or *? or +?	performs a non-greedy match of the preceding p.
+^spam	    means the string must begin with spam.
+spam$	    means the string must end with spam.
+.	        any character, except newline characters.
+\d,\w,\s    a digit, word, or space character, respectively.
+\D,\W,\S	anything except a digit, word, or space, respectively.
+[abc]	    any character between the brackets (such as a, b, ).
+[^abc]	    any character that isn’t between the brackets.
+
